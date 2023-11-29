@@ -1,9 +1,0 @@
-extend schema @federation(version: "2.3")
-
-extend schema
-  @postgres(
-    name: "Neon"
-    url: "{{ env.CONNECTION_STRING }}"
-    namespace: true
-  )
-
