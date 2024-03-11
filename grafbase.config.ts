@@ -10,9 +10,4 @@ g.datasource(pg);
 
 export default config({
   graph: g,
-  auth: {
-    rules: (rules) => {
-      rules.public();
-    },
-  },
 });
