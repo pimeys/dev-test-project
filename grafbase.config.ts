@@ -8,4 +8,9 @@ g.datasource(pg);
 
 export default config({
   schema: g,
+  auth: {
+    rules: (rules) => {
+      rules.public();
+    },
+  },
 });
