@@ -28,6 +28,10 @@
         devshells.default = {
           commands = [
             {
+              package = pkgs.bun;
+              category = "development";
+            }
+            {
               package = pkgs.nodejs;
               category = "development";
             }

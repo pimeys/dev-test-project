@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@grafbase/sdk": "^0.18.0",
-    "grafbase": "^0.58.1"
+    "@grafbase/sdk": "^0.21.0",
+    "grafbase": "^0.68.0"
   }
 }
